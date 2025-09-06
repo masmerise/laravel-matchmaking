@@ -1,0 +1,26 @@
+<?php
+
+return [
+    /*
+    |--------------------------------------------------------------------------
+    | Http interfaces
+    |--------------------------------------------------------------------------
+    |
+    | Here, you are going to have multiple interfaces defined that will be
+    | tested in a "first come, first served" fashion. Meaning the first
+    | interface that matches the request is going to be connected...
+    |
+    */
+
+    /*
+    |--------------------------------------------------------------------------
+    | Fallback interface
+    |--------------------------------------------------------------------------
+    |
+    | A fallback interface can be used if you are gradually migrating off of
+    | a "Big Ball of Mud" structure, or if you have a marketing site that
+    | should be catching all remaining requests for user-friendliness.
+    |
+    */
+
+];

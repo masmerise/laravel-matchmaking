@@ -1,0 +1,12 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Support\AggregateServiceProvider;
+
+final class SidecarServiceProvider extends AggregateServiceProvider
+{
+    protected $providers = [
+        \Carbon\Laravel\ServiceProvider::class,
+    ];
+}

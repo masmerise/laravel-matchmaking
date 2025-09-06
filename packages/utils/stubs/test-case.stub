@@ -1,0 +1,14 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ interfaceNamespace }};
+use Masmerise\Matchmaking\Tests\InterfaceAwareTestCase;
+
+abstract class {{ class }} extends InterfaceAwareTestCase
+{
+    protected function interface(): {{ interface }}
+    {
+        return new {{ interface }}();
+    }
+}

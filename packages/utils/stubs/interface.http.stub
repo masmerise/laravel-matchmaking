@@ -1,0 +1,26 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Config\Repository;
+use Illuminate\Foundation\Application;
+use Illuminate\Http\Request;
+use Illuminate\Support\ServiceProvider;
+use Masmerise\Matchmaking\Http\HttpInterface;
+
+final readonly class {{ class }} implements HttpInterface
+{
+    public function connect(Repository $config, Application $app): void
+    {
+        $providers = ServiceProvider::defaultProviders()->merge([
+            // Http service providers...
+        ])->toArray();
+
+        $config->set('app.providers', $providers);
+    }
+
+    public function matches(Repository $config, Request $request): bool
+    {
+        return false;
+    }
+}

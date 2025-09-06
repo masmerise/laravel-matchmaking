@@ -1,0 +1,41 @@
+{
+    "name": "masmerise/laravel-matchmaking",
+    "description": "Dynamically pair incoming requests with the right application interface.",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "revert"
+    ],
+    "authors": [
+        {
+            "name": "Muhammed Sari",
+            "email": "support@muhammedsari.me",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/masmerise/laravel-matchmaking",
+    "require": {
+        "php": "~8.4"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.6.1",
+        "laravel/pint": "^1.24",
+        "orchestra/testbench": "^10.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Masmerise\\Matchmaking\\": "packages/application/src",
+            "Masmerise\\Matchmaking\\Utility\\": "packages/utils/src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "format": "vendor/bin/pint",
+        "larastan": "vendor/bin/phpstan analyse --memory-limit=2G",
+        "verify": "@larastan"
+    }
+}

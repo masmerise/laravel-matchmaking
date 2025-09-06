@@ -1,0 +1,12 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Console interface
+|--------------------------------------------------------------------------
+|
+| Here, you should return your own custom ConsoleInterface implementation.
+| This should be the fully qualified class namespace (FQCN) to your own
+| ConsoleInterface class that implements the AppInterface contract.
+*/
+return \Masmerise\Matchmaking\AppInterface::class;

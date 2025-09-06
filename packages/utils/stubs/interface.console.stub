@@ -1,0 +1,20 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Config\Repository;
+use Illuminate\Foundation\Application;
+use Illuminate\Support\ServiceProvider;
+use Masmerise\Matchmaking\AppInterface;
+
+final readonly class {{ class }} implements AppInterface
+{
+    public function connect(Repository $config, Application $app): void
+    {
+        $providers = ServiceProvider::defaultProviders()->merge([
+            // Console service providers...
+        ])->toArray();
+
+        $config->set('app.providers', $providers);
+    }
+}

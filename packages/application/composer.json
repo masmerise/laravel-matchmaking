@@ -1,0 +1,24 @@
+{
+    "name": "masmerise/laravel-matchmaking",
+    "description": "Dynamically pair incoming requests with the right application interface.",
+    "license": "MIT",
+    "homepage": "https://github.com/masmerise/laravel-matchmaking",
+    "support": {
+        "issues": "https://github.com/masmerise/laravel-matchmaking/issues",
+        "source": "https://github.com/masmerise/laravel-matchmaking"
+    },
+    "require": {
+        "php": "~8.4",
+        "laravel/framework": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Masmerise\\Matchmaking\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
