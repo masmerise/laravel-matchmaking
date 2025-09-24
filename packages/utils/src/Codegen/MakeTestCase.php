@@ -11,6 +11,8 @@ final class MakeTestCase extends GeneratorCommand
 {
     use InteractsWithStubs;
 
+    protected $aliases = ['make:matchmaking:test-case'];
+
     protected $description = 'Create a new interface aware test case.';
 
     protected $signature = 'matchmaking:make:test-case {name} {interface}';
