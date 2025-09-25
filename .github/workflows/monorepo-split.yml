@@ -24,7 +24,7 @@ jobs:
         with:
           package_directory: 'packages/${{ matrix.package }}'
           repository_organization: 'masmerise'
-          repository_name: 'laravel-matchmaking-${{ matrix.package }}'
+          repository_name: 'matchmaking-for-laravel-${{ matrix.package }}'
           branch: master
           tag: ${{ steps.previous-tag.outputs.tag }}
           user_name: 'Muhammed Sarı'

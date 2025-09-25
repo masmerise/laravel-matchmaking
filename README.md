@@ -1,7 +1,7 @@
 # Dynamically pair incoming requests
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/masmerise/laravel-matchmaking.svg?style=flat-square)](https://packagist.org/packages/masmerise/laravel-matchmaking)
-[![Total Downloads](https://img.shields.io/packagist/dt/masmerise/laravel-matchmaking.svg?style=flat-square)](https://packagist.org/packages/masmerise/laravel-matchmaking)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/masmerise/matchmaking-for-laravel.svg?style=flat-square)](https://packagist.org/packages/masmerise/matchmaking-for-laravel)
+[![Total Downloads](https://img.shields.io/packagist/dt/masmerise/matchmaking-for-laravel.svg?style=flat-square)](https://packagist.org/packages/masmerise/matchmaking-for-laravel)
 
 > [!WARNING]
 > This package is still work in progress.
@@ -11,8 +11,8 @@
 You can install the package via [composer](https://getcomposer.org):
 
 ```bash
-composer require masmerise/laravel-matchmaking
-composer require --dev masmerise/laravel-matchmaking-utils
+composer require masmerise/matchmaking-for-laravel
+composer require --dev masmerise/matchmaking-for-laravel-utils
 ```
 
 Run the install command and follow the on-screen instructions:
@@ -23,7 +23,7 @@ php artisan matchmaking:install
 
 ## Documentation
 
-Documentation can be found on our [documentation website](https://laravel-matchmaking.dev).
+Documentation can be found on our [documentation website](https://matchmaking-for-laravel.dev).
 
 ## Changelog
 

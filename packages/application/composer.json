@@ -1,11 +1,11 @@
 {
-    "name": "masmerise/laravel-matchmaking",
+    "name": "masmerise/matchmaking-for-laravel",
     "description": "Dynamically pair incoming requests with the right application interface.",
     "license": "MIT",
-    "homepage": "https://github.com/masmerise/laravel-matchmaking",
+    "homepage": "https://github.com/masmerise/matchmaking-for-laravel",
     "support": {
-        "issues": "https://github.com/masmerise/laravel-matchmaking/issues",
-        "source": "https://github.com/masmerise/laravel-matchmaking"
+        "issues": "https://github.com/masmerise/matchmaking-for-laravel/issues",
+        "source": "https://github.com/masmerise/matchmaking-for-laravel"
     },
     "require": {
         "php": "~8.4",
