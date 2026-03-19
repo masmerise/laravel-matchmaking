@@ -8,8 +8,8 @@
         "source": "https://github.com/masmerise/matchmaking-for-laravel"
     },
     "require": {
-        "php": "~8.4",
-        "laravel/framework": "^12.0"
+        "php": "~8.5",
+        "laravel/framework": "^13.0"
     },
     "autoload": {
         "psr-4": {

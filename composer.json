@@ -15,12 +15,12 @@
     ],
     "homepage": "https://github.com/masmerise/matchmaking-for-laravel",
     "require": {
-        "php": "~8.4"
+        "php": "~8.5"
     },
     "require-dev": {
-        "larastan/larastan": "^3.6.1",
-        "laravel/pint": "^1.24",
-        "orchestra/testbench": "^10.6"
+        "larastan/larastan": "^3.9.3",
+        "laravel/pint": "^1.29",
+        "orchestra/testbench": "^11.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
